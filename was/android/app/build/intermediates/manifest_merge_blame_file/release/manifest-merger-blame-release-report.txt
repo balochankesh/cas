@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.was"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:5:5-65
+12-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:5:22-63
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:8:5-78
+15-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:9:5-67
+16-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:10:5-73
+17-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:10:22-71
+18
+19    <uses-feature
+19-->[:react-native-ble-manager] /home/ankesh/major/was/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-13:36
+20        android:name="android.hardware.bluetooth_le"
+20-->[:react-native-ble-manager] /home/ankesh/major/was/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-53
+21        android:required="false" />
+21-->[:react-native-ble-manager] /home/ankesh/major/was/node_modules/react-native-ble-manager/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-33
+22    <uses-feature
+22-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+23        android:name="android.hardware.camera"
+23-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+24        android:required="false" />
+24-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+25    <uses-feature
+25-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.camera.autofocus"
+26-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+27        android:required="false" />
+27-->[:react-native-camera] /home/ankesh/major/was/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+28    <uses-feature
+28-->[:react-native-scan-barcode] /home/ankesh/major/was/node_modules/react-native-scan-barcode/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-18:36
+29        android:name="android.hardware.camera.front"
+29-->[:react-native-scan-barcode] /home/ankesh/major/was/node_modules/react-native-scan-barcode/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-53
+30        android:required="false" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+30-->[:react-native-scan-barcode] /home/ankesh/major/was/node_modules/react-native-scan-barcode/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-33
+31    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+31-->[com.google.android.gms:play-services-iid:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+31-->[com.google.android.gms:play-services-iid:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/61e3e279020c351517b511e7d56d43f0/play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+32    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+32-->[com.android.installreferrer:installreferrer:1.1.2] /home/ankesh/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+32-->[com.android.installreferrer:installreferrer:1.1.2] /home/ankesh/.gradle/caches/transforms-2/files-2.1/744c11701aa7144a8d6a8e89bcdad6bd/installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+33
+34    <application
+34-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:12:5-31:19
+35        android:name="com.was.MainApplication"
+35-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:13:7-38
+36        android:allowBackup="false"
+36-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:17:7-34
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.0.1] /home/ankesh/.gradle/caches/transforms-2/files-2.1/1cd17b4a4c7e4b94a301254fec05bdc3/core-1.0.1/AndroidManifest.xml:22:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:15:7-41
+39        android:label="@string/app_name"
+39-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:14:7-39
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:16:7-52
+41        android:theme="@style/AppTheme" >
+41-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:18:7-38
+42        <activity
+42-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:19:7-29:18
+43            android:name="com.was.MainActivity"
+43-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:20:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+44-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:22:9-86
+45            android:label="@string/app_name"
+45-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:21:9-41
+46            android:launchMode="singleTask"
+46-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:23:9-40
+47            android:windowSoftInputMode="adjustResize" >
+47-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:24:9-51
+48            <intent-filter>
+48-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:25:9-28:25
+49                <action android:name="android.intent.action.MAIN" />
+49-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:26:13-65
+49-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:26:21-62
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:27:13-73
+51-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:27:23-70
+52            </intent-filter>
+53        </activity>
+54        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+54-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:30:7-84
+54-->/home/ankesh/major/was/android/app/src/main/AndroidManifest.xml:30:17-81
+55
+56        <receiver
+56-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:9-22:20
+57            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+57-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-70
+58            android:enabled="true"
+58-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-35
+59            android:exported="true"
+59-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-36
+60            android:permission="android.permission.INSTALL_PACKAGES" >
+60-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-69
+61            <intent-filter>
+61-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-21:29
+62                <action android:name="com.android.vending.INSTALL_REFERRER" />
+62-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:17-79
+62-->[:react-native-device-info] /home/ankesh/major/was/node_modules/react-native-device-info/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:25-76
+63            </intent-filter>
+64        </receiver>
+65
+66        <activity
+66-->[com.google.android.gms:play-services-base:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+67            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+67-->[com.google.android.gms:play-services-base:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+68            android:exported="false"
+68-->[com.google.android.gms:play-services-base:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+69            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+69-->[com.google.android.gms:play-services-base:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/fc8046cb9a5df9499609a5f7f8270b1b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+70
+71        <meta-data
+71-->[com.google.android.gms:play-services-basement:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/47d4daf8ac40a6ab590389f13d5fbe7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+72            android:name="com.google.android.gms.version"
+72-->[com.google.android.gms:play-services-basement:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/47d4daf8ac40a6ab590389f13d5fbe7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+73            android:value="@integer/google_play_services_version" />
+73-->[com.google.android.gms:play-services-basement:17.0.0] /home/ankesh/.gradle/caches/transforms-2/files-2.1/47d4daf8ac40a6ab590389f13d5fbe7c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+74    </application>
+75
+76</manifest>

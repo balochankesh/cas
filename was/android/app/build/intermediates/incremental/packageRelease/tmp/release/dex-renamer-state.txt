@@ -1,0 +1,4 @@
+#Sun May 02 15:20:06 IST 2021
+base.0=/home/ankesh/major/was/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
